@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "bootstrap-3.4.1-dist",
+			"path": "../../Downloads/bootstrap-3.4.1-dist/bootstrap-3.4.1-dist"
+		},
+		{
+			"name": "coursera-test",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

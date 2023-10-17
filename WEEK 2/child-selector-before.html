@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+</head>
+<style>
+    /*section > article        /*this is child selector*/
+    {
+        color: green;
+        font-size: 24px;
+    }*/
+    section > h2{
+        color: green;
+    }
+    section article{            /* this is descendent selector*/
+        color: green;
+        font-size: 24px;
+    }
+</style>
+<body>
+    <h1>Child Selector</h1>
+    <section>
+        <h2>Subheading 1</h2>
+        <div>
+            <article>Article which inside DIV, which is inside SECTION </article>
+        </div>
+    </section>
+    <section>
+        <article>ARTICLE as a direct child of the SECTION element.</article>
+    </section>
+    <h2>Subheading 2</h2>
+</body>
+</html>

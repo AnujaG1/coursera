@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        #p1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+#p2{
+    background-color:blue;
+    width: 150px;
+    height: 150px;
+}
+@media(min-width:1200px)
+{
+#p1{
+   
+    width: 80%
+}
+#p2{
+  
+    width: 100px;
+    height: 100px;
+}
+}
+@media(min-width:992px) and (max-width:1199px){
+    #p1{
+        width: 50%;
+    }
+    #p2{
+        width: 100px;
+        height: 100px;
+    }
+}
+    </style>
+</head>
+<body>
+    <h1>
+        Media Query
+    </h1>
+    <div>
+        <p id ="p1"></p></div>
+        <div>
+        <p id ="p2"></p>
+    </div>
+</body>
+</html>

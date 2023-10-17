@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity in CSS</title>
+    <style>
+header.navigation p{
+    color: blue;
+}
+p.blurb{
+    color: red;
+}
+p{
+    color: aqua !important;
+}
+    </style>
+</head>
+<body>
+    <header class="navigation">
+        <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Cupiditate provident, fugiat eius incidunt quis ipsa tenetur recusandae 
+            atque blanditiis hic nisi ducimus sequi, debitis architecto error dolorem 
+            nobis mollitia temporibus! Corporis ex eos incidunt, laboriosam quis itaque magni aliquid reiciendis officia perferendis 
+            labore iste animi, eius eveniet! Laboriosam, praesentium corrupti.</p>
+    </header>
+</body>
+</html>
