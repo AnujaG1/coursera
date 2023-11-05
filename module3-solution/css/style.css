@@ -1,0 +1,125 @@
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 2px solid black;
+
+  }
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  #nav-list {
+    margin-top: 0px;
+    margin-bottom: 0;
+
+  }
+  #nav-list a {
+    color: black;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p { /* Kosher cert */
+      font-size: .6em;
+      margin-top: 12px;
+    }
+    
+  
+    #collapsable-nav a { 
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { 
+      font-size: 1em;
+      margin-right: 5px;
+    }
+}
+#menu-tile, #specials-tile, #map-tile{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+    background-position: center;
+    background-color: grey;
+    
+  }
+  #menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+  
+  #menu-tile div, #specials-tile div, #map-tile div {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: black;
+
+  }
+  p
+  {
+    box-sizing: content-box;
+    margin: 15px;
+  }
+  @media (max-width: 479px) {
+    .navbar-brand h1 { 
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+
+    #menu-tile, #specials-tile, #map-tile {
+      width: 280px;
+      margin: 0 auto 15px;
+    }
+  
+    .col-xxs-12 {
+      position: relative;
+      min-height: 2px;
+      padding-right: 20px;
+      padding-left: 15px;
+      float: left;
+      width: 100%;
+    }
+  }
+  h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  
