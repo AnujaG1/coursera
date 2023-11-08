@@ -1,6 +1,6 @@
 {
     "firstName" : "Anuja",
     "lastName" : "Gyawali",
-    "likesChineseFood" : false,
+    "likesChineseFood" : true,
     "numberOfDisplays" : 2
 }
